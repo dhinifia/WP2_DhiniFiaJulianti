@@ -24,6 +24,7 @@ method="post">
                     <th>:</th>
                     <td>
                         <input type="text" name="kode" id="kode">
+                        <?= form_eror('kode', '<small class="text danger p1-3">'</small>'); ?>
                     </td>
                 </tr>
                 <tr>
@@ -31,6 +32,7 @@ method="post">
                     <td>:</td>
                     <td>
                         <input type="text" name="nama" id="nama">
+                        <?= form_eror('kode', '<small class="text danger p1-3">'</small>'); ?>
                     </td>
                 </tr>
                 <tr>
